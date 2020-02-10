@@ -20,9 +20,25 @@ console.log(fruits[0]);
 //fruits.unshift("kiwi", "grapes")
 // insert new element at the start of the array
 //console.log(fruits)
-var person = {
-    firstname: "pinki",
-    lastname: "sharma",
+//var cars = ["volvo", "bmw", "audi", ]
+//console.log(cars);
+//cars[0] = "scorpio";
+//console.log(cars);
+//cars.push("tavera");
+//console.log(cars);
+//cars.pop();
+//console.log(cars);
+//console.log(cars.shift());
+//console.log(cars.unshift("iten"));
+var number = [1, 23, 4, 54, 22, 12];
+//console.log(number.sort());
+//for descending
+number.sort(function(a, b) {
+    return b - a
+});
+number.sort(function(a, b) {
+    return a - b
+})
+console.log(number);
 
-}
-console.log(person["firstname"]);
+console.log(number);
